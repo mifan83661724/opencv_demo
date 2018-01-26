@@ -30,7 +30,7 @@
 using namespace cv;
 using namespace std;
 #define N 10       //载入数字图片个数
-string base_path = "/Users/liuxiang/Desktop/opencvReadNu/";
+string base_path = "/Users/liuxiang/Documents/opencv-workspace/opencvReadNu/";
 string testPic[] =
 {
     "test1.jpg", "test2.jpg",  "test3.jpg",  "test4.jpg",

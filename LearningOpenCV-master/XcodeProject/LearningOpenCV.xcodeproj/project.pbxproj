@@ -283,7 +283,7 @@
 		220FC460201A115A00578D68 /* image_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image_tool.h; sourceTree = "<group>"; };
 		220FC462201AC0CA00578D68 /* src_img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src_img; path = ../../../../Desktop/src_img; sourceTree = "<group>"; };
 		220FC469201AD45E00578D68 /* main_train.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_train.cpp; sourceTree = "<group>"; };
-		220FC46C201AD93300578D68 /* opencvReadNu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opencvReadNu; path = ../../../../Desktop/opencvReadNu; sourceTree = "<group>"; };
+		220FC46F201B685100578D68 /* opencvReadNu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opencvReadNu; path = ../../opencvReadNu; sourceTree = "<group>"; };
 		CB8E86951D49B50100884BD7 /* LearningOpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningOpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8E86A01D49B58D00884BD7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -597,7 +597,7 @@
 		CB8E868C1D49B50100884BD7 = {
 			isa = PBXGroup;
 			children = (
-				220FC46C201AD93300578D68 /* opencvReadNu */,
+				220FC46F201B685100578D68 /* opencvReadNu */,
 				220FC462201AC0CA00578D68 /* src_img */,
 				220FC45E2019D9F000578D68 /* include */,
 				220FC1B22019C86A00578D68 /* data */,
