@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220FC3D62019CAEE00578D68 /* libopencv_xphoto.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3502019CAED00578D68 /* libopencv_xphoto.3.4.0.dylib */; };
+		220FC3D72019CAEE00578D68 /* libopencv_rgbd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3512019CAEE00578D68 /* libopencv_rgbd.dylib */; };
+		220FC3D82019CAEE00578D68 /* libopencv_stitching.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3522019CAEE00578D68 /* libopencv_stitching.dylib */; };
+		220FC3D92019CAEE00578D68 /* libopencv_objdetect.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3532019CAEE00578D68 /* libopencv_objdetect.3.4.0.dylib */; };
+		220FC3DA2019CAEE00578D68 /* libopencv_optflow.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3542019CAEE00578D68 /* libopencv_optflow.3.4.0.dylib */; };
+		220FC3DB2019CAEE00578D68 /* libopencv_img_hash.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3552019CAEE00578D68 /* libopencv_img_hash.dylib */; };
+		220FC3DC2019CAEE00578D68 /* libopencv_xfeatures2d.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3562019CAEE00578D68 /* libopencv_xfeatures2d.3.4.dylib */; };
+		220FC3DD2019CAEE00578D68 /* libopencv_superres.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3572019CAEE00578D68 /* libopencv_superres.3.4.dylib */; };
+		220FC3DE2019CAEE00578D68 /* libopencv_xobjdetect.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3582019CAEE00578D68 /* libopencv_xobjdetect.3.4.0.dylib */; };
+		220FC3DF2019CAEE00578D68 /* libopencv_bgsegm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3592019CAEE00578D68 /* libopencv_bgsegm.dylib */; };
+		220FC3E02019CAEE00578D68 /* libopencv_ccalib.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC35A2019CAEE00578D68 /* libopencv_ccalib.3.4.0.dylib */; };
+		220FC3E12019CAEE00578D68 /* libopencv_text.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC35B2019CAEE00578D68 /* libopencv_text.3.4.0.dylib */; };
+		220FC3E22019CAEE00578D68 /* libopencv_dnn.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC35C2019CAEE00578D68 /* libopencv_dnn.3.4.0.dylib */; };
+		220FC3E32019CAEE00578D68 /* libopencv_aruco.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC35D2019CAEE00578D68 /* libopencv_aruco.3.4.dylib */; };
+		220FC3E42019CAEE00578D68 /* libopencv_tracking.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC35E2019CAEE00578D68 /* libopencv_tracking.3.4.0.dylib */; };
+		220FC3E52019CAEE00578D68 /* libopencv_reg.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC35F2019CAEE00578D68 /* libopencv_reg.3.4.dylib */; };
+		220FC3E62019CAEE00578D68 /* libopencv_videostab.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3622019CAEE00578D68 /* libopencv_videostab.3.4.dylib */; };
+		220FC3E72019CAEE00578D68 /* libopencv_calib3d.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3632019CAEE00578D68 /* libopencv_calib3d.3.4.0.dylib */; };
+		220FC3E82019CAEE00578D68 /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3642019CAEE00578D68 /* libopencv_video.dylib */; };
+		220FC3E92019CAEE00578D68 /* libopencv_videoio.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3652019CAEE00578D68 /* libopencv_videoio.3.4.dylib */; };
+		220FC3EA2019CAEE00578D68 /* libopencv_ximgproc.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3662019CAEE00578D68 /* libopencv_ximgproc.3.4.dylib */; };
+		220FC3EB2019CAEE00578D68 /* libopencv_phase_unwrapping.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3672019CAEE00578D68 /* libopencv_phase_unwrapping.dylib */; };
+		220FC3EC2019CAEE00578D68 /* libopencv_highgui.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3682019CAEE00578D68 /* libopencv_highgui.3.4.dylib */; };
+		220FC3ED2019CAEE00578D68 /* libopencv_objdetect.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3692019CAEE00578D68 /* libopencv_objdetect.3.4.dylib */; };
+		220FC3EE2019CAEE00578D68 /* libopencv_imgcodecs.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC36A2019CAEE00578D68 /* libopencv_imgcodecs.3.4.dylib */; };
+		220FC3EF2019CAEE00578D68 /* libopencv_imgcodecs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC36B2019CAEE00578D68 /* libopencv_imgcodecs.dylib */; };
+		220FC3F02019CAEE00578D68 /* libopencv_video.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC36C2019CAEE00578D68 /* libopencv_video.3.4.dylib */; };
+		220FC3F12019CAEE00578D68 /* libopencv_datasets.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC36D2019CAEE00578D68 /* libopencv_datasets.3.4.dylib */; };
+		220FC3F22019CAEE00578D68 /* libopencv_img_hash.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC36E2019CAEE00578D68 /* libopencv_img_hash.3.4.0.dylib */; };
+		220FC3F32019CAEE00578D68 /* libopencv_core.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC36F2019CAEE00578D68 /* libopencv_core.3.4.0.dylib */; };
+		220FC3F42019CAEE00578D68 /* libopencv_rgbd.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3702019CAEE00578D68 /* libopencv_rgbd.3.4.0.dylib */; };
+		220FC3F52019CAEE00578D68 /* libopencv_highgui.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3712019CAEE00578D68 /* libopencv_highgui.3.4.0.dylib */; };
+		220FC3F62019CAEE00578D68 /* libopencv_datasets.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3722019CAEE00578D68 /* libopencv_datasets.dylib */; };
+		220FC3F72019CAEE00578D68 /* libopencv_bioinspired.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3732019CAEE00578D68 /* libopencv_bioinspired.3.4.dylib */; };
+		220FC3F82019CAEE00578D68 /* libopencv_xfeatures2d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3742019CAEE00578D68 /* libopencv_xfeatures2d.dylib */; };
+		220FC3F92019CAEE00578D68 /* libopencv_face.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3752019CAEE00578D68 /* libopencv_face.dylib */; };
+		220FC3FA2019CAEE00578D68 /* libopencv_xobjdetect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3762019CAEE00578D68 /* libopencv_xobjdetect.dylib */; };
+		220FC3FB2019CAEE00578D68 /* libopencv_photo.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3772019CAEE00578D68 /* libopencv_photo.3.4.dylib */; };
+		220FC3FC2019CAEE00578D68 /* libopencv_fuzzy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3782019CAEE00578D68 /* libopencv_fuzzy.dylib */; };
+		220FC3FD2019CAEE00578D68 /* libopencv_rgbd.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3792019CAEE00578D68 /* libopencv_rgbd.3.4.dylib */; };
+		220FC3FE2019CAEE00578D68 /* libopencv_img_hash.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC37A2019CAEE00578D68 /* libopencv_img_hash.3.4.dylib */; };
+		220FC3FF2019CAEE00578D68 /* libopencv_line_descriptor.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC37B2019CAEE00578D68 /* libopencv_line_descriptor.3.4.dylib */; };
+		220FC4002019CAEE00578D68 /* libopencv_dpm.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC37C2019CAEE00578D68 /* libopencv_dpm.3.4.0.dylib */; };
+		220FC4012019CAEE00578D68 /* libopencv_bgsegm.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC37D2019CAEE00578D68 /* libopencv_bgsegm.3.4.dylib */; };
+		220FC4022019CAEE00578D68 /* libopencv_features2d.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC37E2019CAEE00578D68 /* libopencv_features2d.3.4.0.dylib */; };
+		220FC4032019CAEE00578D68 /* libopencv_bioinspired.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC37F2019CAEE00578D68 /* libopencv_bioinspired.dylib */; };
+		220FC4042019CAEE00578D68 /* libopencv_saliency.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3802019CAEE00578D68 /* libopencv_saliency.3.4.dylib */; };
+		220FC4052019CAEE00578D68 /* libopencv_flann.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3812019CAEE00578D68 /* libopencv_flann.3.4.0.dylib */; };
+		220FC4062019CAEE00578D68 /* libopencv_calib3d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3822019CAEE00578D68 /* libopencv_calib3d.dylib */; };
+		220FC4072019CAEE00578D68 /* libopencv_objdetect.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3832019CAEE00578D68 /* libopencv_objdetect.dylib */; };
+		220FC4082019CAEE00578D68 /* libopencv_xphoto.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3842019CAEE00578D68 /* libopencv_xphoto.3.4.dylib */; };
+		220FC4092019CAEE00578D68 /* libopencv_xphoto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3882019CAEE00578D68 /* libopencv_xphoto.dylib */; };
+		220FC40A2019CAEE00578D68 /* libopencv_shape.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3892019CAEE00578D68 /* libopencv_shape.3.4.dylib */; };
+		220FC40B2019CAEE00578D68 /* libopencv_flann.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC38A2019CAEE00578D68 /* libopencv_flann.dylib */; };
+		220FC40C2019CAEE00578D68 /* libopencv_imgcodecs.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC38B2019CAEE00578D68 /* libopencv_imgcodecs.3.4.0.dylib */; };
+		220FC40D2019CAEE00578D68 /* libopencv_shape.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC38C2019CAEE00578D68 /* libopencv_shape.dylib */; };
+		220FC40E2019CAEE00578D68 /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC38D2019CAEE00578D68 /* libopencv_imgproc.dylib */; };
+		220FC40F2019CAEE00578D68 /* libopencv_ccalib.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC38E2019CAEE00578D68 /* libopencv_ccalib.3.4.dylib */; };
+		220FC4102019CAEE00578D68 /* libopencv_dnn.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC38F2019CAEE00578D68 /* libopencv_dnn.3.4.dylib */; };
+		220FC4112019CAEE00578D68 /* libopencv_imgproc.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3902019CAEE00578D68 /* libopencv_imgproc.3.4.0.dylib */; };
+		220FC4122019CAEE00578D68 /* libopencv_fuzzy.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3912019CAEE00578D68 /* libopencv_fuzzy.3.4.0.dylib */; };
+		220FC4132019CAEE00578D68 /* libopencv_saliency.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3922019CAEE00578D68 /* libopencv_saliency.dylib */; };
+		220FC4142019CAEE00578D68 /* libopencv_reg.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3932019CAEE00578D68 /* libopencv_reg.3.4.0.dylib */; };
+		220FC4152019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3942019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.0.dylib */; };
+		220FC4162019CAEE00578D68 /* libopencv_photo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3952019CAEE00578D68 /* libopencv_photo.dylib */; };
+		220FC4172019CAEE00578D68 /* libopencv_videostab.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3962019CAEE00578D68 /* libopencv_videostab.dylib */; };
+		220FC4182019CAEE00578D68 /* libopencv_superres.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3972019CAEE00578D68 /* libopencv_superres.3.4.0.dylib */; };
+		220FC4192019CAEE00578D68 /* libopencv_features2d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3982019CAEE00578D68 /* libopencv_features2d.dylib */; };
+		220FC41A2019CAEE00578D68 /* libopencv_imgproc.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3992019CAEE00578D68 /* libopencv_imgproc.3.4.dylib */; };
+		220FC41B2019CAEE00578D68 /* libopencv_videoio.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC39A2019CAEE00578D68 /* libopencv_videoio.dylib */; };
+		220FC41C2019CAEE00578D68 /* libopencv_surface_matching.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC39B2019CAEE00578D68 /* libopencv_surface_matching.3.4.dylib */; };
+		220FC41D2019CAEE00578D68 /* libopencv_optflow.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC39C2019CAEE00578D68 /* libopencv_optflow.3.4.dylib */; };
+		220FC41E2019CAEE00578D68 /* libopencv_plot.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC39D2019CAEE00578D68 /* libopencv_plot.3.4.0.dylib */; };
+		220FC41F2019CAEE00578D68 /* libopencv_flann.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC39E2019CAEE00578D68 /* libopencv_flann.3.4.dylib */; };
+		220FC4202019CAEE00578D68 /* libopencv_ximgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC39F2019CAEE00578D68 /* libopencv_ximgproc.dylib */; };
+		220FC4212019CAEE00578D68 /* libopencv_tracking.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A02019CAEE00578D68 /* libopencv_tracking.dylib */; };
+		220FC4222019CAEE00578D68 /* libopencv_ml.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A12019CAEE00578D68 /* libopencv_ml.dylib */; };
+		220FC4232019CAEE00578D68 /* libopencv_structured_light.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A22019CAEE00578D68 /* libopencv_structured_light.dylib */; };
+		220FC4242019CAEE00578D68 /* libopencv_stitching.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A32019CAEE00578D68 /* libopencv_stitching.3.4.0.dylib */; };
+		220FC4252019CAEE00578D68 /* libopencv_plot.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A42019CAEE00578D68 /* libopencv_plot.3.4.dylib */; };
+		220FC4262019CAEE00578D68 /* libopencv_surface_matching.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A52019CAEE00578D68 /* libopencv_surface_matching.dylib */; };
+		220FC4272019CAEE00578D68 /* libopencv_optflow.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A62019CAEE00578D68 /* libopencv_optflow.dylib */; };
+		220FC4282019CAEE00578D68 /* libopencv_structured_light.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A72019CAEE00578D68 /* libopencv_structured_light.3.4.0.dylib */; };
+		220FC4292019CAEE00578D68 /* libopencv_tracking.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A82019CAEE00578D68 /* libopencv_tracking.3.4.dylib */; };
+		220FC42A2019CAEE00578D68 /* libopencv_ximgproc.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3A92019CAEE00578D68 /* libopencv_ximgproc.3.4.0.dylib */; };
+		220FC42B2019CAEE00578D68 /* libopencv_photo.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3AA2019CAEE00578D68 /* libopencv_photo.3.4.0.dylib */; };
+		220FC42C2019CAEE00578D68 /* libopencv_text.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3AB2019CAEE00578D68 /* libopencv_text.dylib */; };
+		220FC42D2019CAEE00578D68 /* libopencv_line_descriptor.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3AC2019CAEE00578D68 /* libopencv_line_descriptor.dylib */; };
+		220FC42E2019CAEE00578D68 /* libopencv_structured_light.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3AD2019CAEE00578D68 /* libopencv_structured_light.3.4.dylib */; };
+		220FC42F2019CAEE00578D68 /* libopencv_stereo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3AE2019CAEE00578D68 /* libopencv_stereo.dylib */; };
+		220FC4302019CAEE00578D68 /* libopencv_bgsegm.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3AF2019CAEE00578D68 /* libopencv_bgsegm.3.4.0.dylib */; };
+		220FC4312019CAEE00578D68 /* libopencv_face.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3B02019CAEE00578D68 /* libopencv_face.3.4.dylib */; };
+		220FC4322019CAEE00578D68 /* libopencv_dpm.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3B12019CAEE00578D68 /* libopencv_dpm.3.4.dylib */; };
+		220FC4332019CAEE00578D68 /* libopencv_videoio.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3B22019CAEE00578D68 /* libopencv_videoio.3.4.0.dylib */; };
+		220FC4342019CAEE00578D68 /* libopencv_ml.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3B32019CAEE00578D68 /* libopencv_ml.3.4.0.dylib */; };
+		220FC4352019CAEE00578D68 /* libopencv_superres.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3B72019CAEE00578D68 /* libopencv_superres.dylib */; };
+		220FC4362019CAEE00578D68 /* libopencv_stereo.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3B82019CAEE00578D68 /* libopencv_stereo.3.4.dylib */; };
+		220FC4372019CAEE00578D68 /* libopencv_dnn.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3B92019CAEE00578D68 /* libopencv_dnn.dylib */; };
+		220FC4382019CAEE00578D68 /* libopencv_saliency.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3BA2019CAEE00578D68 /* libopencv_saliency.3.4.0.dylib */; };
+		220FC4392019CAEE00578D68 /* libopencv_reg.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3BB2019CAEE00578D68 /* libopencv_reg.dylib */; };
+		220FC43A2019CAEE00578D68 /* libopencv_ccalib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3BC2019CAEE00578D68 /* libopencv_ccalib.dylib */; };
+		220FC43B2019CAEE00578D68 /* libopencv_text.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3BD2019CAEE00578D68 /* libopencv_text.3.4.dylib */; };
+		220FC43C2019CAEE00578D68 /* libopencv_fuzzy.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3BE2019CAEE00578D68 /* libopencv_fuzzy.3.4.dylib */; };
+		220FC43D2019CAEE00578D68 /* libopencv_shape.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3BF2019CAEE00578D68 /* libopencv_shape.3.4.0.dylib */; };
+		220FC43E2019CAEE00578D68 /* libopencv_features2d.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C02019CAEE00578D68 /* libopencv_features2d.3.4.dylib */; };
+		220FC43F2019CAEE00578D68 /* libopencv_plot.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C12019CAEE00578D68 /* libopencv_plot.dylib */; };
+		220FC4402019CAEE00578D68 /* libopencv_bioinspired.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C22019CAEE00578D68 /* libopencv_bioinspired.3.4.0.dylib */; };
+		220FC4412019CAEE00578D68 /* libopencv_aruco.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C32019CAEE00578D68 /* libopencv_aruco.dylib */; };
+		220FC4422019CAEE00578D68 /* libopencv_dpm.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C42019CAEE00578D68 /* libopencv_dpm.dylib */; };
+		220FC4432019CAEE00578D68 /* libopencv_surface_matching.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C52019CAEE00578D68 /* libopencv_surface_matching.3.4.0.dylib */; };
+		220FC4442019CAEE00578D68 /* libopencv_videostab.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C62019CAEE00578D68 /* libopencv_videostab.3.4.0.dylib */; };
+		220FC4452019CAEE00578D68 /* libopencv_ml.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C72019CAEE00578D68 /* libopencv_ml.3.4.dylib */; };
+		220FC4462019CAEE00578D68 /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C82019CAEE00578D68 /* libopencv_highgui.dylib */; };
+		220FC4472019CAEE00578D68 /* libopencv_line_descriptor.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3C92019CAEE00578D68 /* libopencv_line_descriptor.3.4.0.dylib */; };
+		220FC4482019CAEE00578D68 /* libopencv_calib3d.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3CA2019CAEE00578D68 /* libopencv_calib3d.3.4.dylib */; };
+		220FC4492019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3CB2019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.dylib */; };
+		220FC44A2019CAEE00578D68 /* libopencv_aruco.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3CC2019CAEE00578D68 /* libopencv_aruco.3.4.0.dylib */; };
+		220FC44B2019CAEE00578D68 /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3CD2019CAEE00578D68 /* libopencv_core.dylib */; };
+		220FC44C2019CAEE00578D68 /* libopencv_core.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3CE2019CAEE00578D68 /* libopencv_core.3.4.dylib */; };
+		220FC44D2019CAEE00578D68 /* libopencv_datasets.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3CF2019CAEE00578D68 /* libopencv_datasets.3.4.0.dylib */; };
+		220FC44E2019CAEE00578D68 /* libopencv_xobjdetect.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3D02019CAEE00578D68 /* libopencv_xobjdetect.3.4.dylib */; };
+		220FC44F2019CAEE00578D68 /* libopencv_stereo.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3D12019CAEE00578D68 /* libopencv_stereo.3.4.0.dylib */; };
+		220FC4502019CAEE00578D68 /* libopencv_face.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3D22019CAEE00578D68 /* libopencv_face.3.4.0.dylib */; };
+		220FC4512019CAEE00578D68 /* libopencv_stitching.3.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3D32019CAEE00578D68 /* libopencv_stitching.3.4.dylib */; };
+		220FC4522019CAEE00578D68 /* libopencv_video.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3D42019CAEE00578D68 /* libopencv_video.3.4.0.dylib */; };
+		220FC4532019CAEE00578D68 /* libopencv_xfeatures2d.3.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220FC3D52019CAEE00578D68 /* libopencv_xfeatures2d.3.4.0.dylib */; };
+		220FC46E201B4C3A00578D68 /* main_train.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 220FC469201AD45E00578D68 /* main_train.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CB8E86931D49B50100884BD7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		220FC1B22019C86A00578D68 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = "<group>"; };
+		220FC3502019CAED00578D68 /* libopencv_xphoto.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xphoto.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3512019CAEE00578D68 /* libopencv_rgbd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_rgbd.dylib; sourceTree = "<group>"; };
+		220FC3522019CAEE00578D68 /* libopencv_stitching.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_stitching.dylib; sourceTree = "<group>"; };
+		220FC3532019CAEE00578D68 /* libopencv_objdetect.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_objdetect.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3542019CAEE00578D68 /* libopencv_optflow.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_optflow.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3552019CAEE00578D68 /* libopencv_img_hash.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_img_hash.dylib; sourceTree = "<group>"; };
+		220FC3562019CAEE00578D68 /* libopencv_xfeatures2d.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xfeatures2d.3.4.dylib; sourceTree = "<group>"; };
+		220FC3572019CAEE00578D68 /* libopencv_superres.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_superres.3.4.dylib; sourceTree = "<group>"; };
+		220FC3582019CAEE00578D68 /* libopencv_xobjdetect.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xobjdetect.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3592019CAEE00578D68 /* libopencv_bgsegm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_bgsegm.dylib; sourceTree = "<group>"; };
+		220FC35A2019CAEE00578D68 /* libopencv_ccalib.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ccalib.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC35B2019CAEE00578D68 /* libopencv_text.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_text.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC35C2019CAEE00578D68 /* libopencv_dnn.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_dnn.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC35D2019CAEE00578D68 /* libopencv_aruco.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_aruco.3.4.dylib; sourceTree = "<group>"; };
+		220FC35E2019CAEE00578D68 /* libopencv_tracking.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_tracking.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC35F2019CAEE00578D68 /* libopencv_reg.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_reg.3.4.dylib; sourceTree = "<group>"; };
+		220FC3612019CAEE00578D68 /* opencv.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = opencv.pc; sourceTree = "<group>"; };
+		220FC3622019CAEE00578D68 /* libopencv_videostab.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.3.4.dylib; sourceTree = "<group>"; };
+		220FC3632019CAEE00578D68 /* libopencv_calib3d.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3642019CAEE00578D68 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_video.dylib; sourceTree = "<group>"; };
+		220FC3652019CAEE00578D68 /* libopencv_videoio.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videoio.3.4.dylib; sourceTree = "<group>"; };
+		220FC3662019CAEE00578D68 /* libopencv_ximgproc.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ximgproc.3.4.dylib; sourceTree = "<group>"; };
+		220FC3672019CAEE00578D68 /* libopencv_phase_unwrapping.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_phase_unwrapping.dylib; sourceTree = "<group>"; };
+		220FC3682019CAEE00578D68 /* libopencv_highgui.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.3.4.dylib; sourceTree = "<group>"; };
+		220FC3692019CAEE00578D68 /* libopencv_objdetect.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_objdetect.3.4.dylib; sourceTree = "<group>"; };
+		220FC36A2019CAEE00578D68 /* libopencv_imgcodecs.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgcodecs.3.4.dylib; sourceTree = "<group>"; };
+		220FC36B2019CAEE00578D68 /* libopencv_imgcodecs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgcodecs.dylib; sourceTree = "<group>"; };
+		220FC36C2019CAEE00578D68 /* libopencv_video.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_video.3.4.dylib; sourceTree = "<group>"; };
+		220FC36D2019CAEE00578D68 /* libopencv_datasets.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_datasets.3.4.dylib; sourceTree = "<group>"; };
+		220FC36E2019CAEE00578D68 /* libopencv_img_hash.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_img_hash.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC36F2019CAEE00578D68 /* libopencv_core.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3702019CAEE00578D68 /* libopencv_rgbd.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_rgbd.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3712019CAEE00578D68 /* libopencv_highgui.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3722019CAEE00578D68 /* libopencv_datasets.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_datasets.dylib; sourceTree = "<group>"; };
+		220FC3732019CAEE00578D68 /* libopencv_bioinspired.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_bioinspired.3.4.dylib; sourceTree = "<group>"; };
+		220FC3742019CAEE00578D68 /* libopencv_xfeatures2d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xfeatures2d.dylib; sourceTree = "<group>"; };
+		220FC3752019CAEE00578D68 /* libopencv_face.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_face.dylib; sourceTree = "<group>"; };
+		220FC3762019CAEE00578D68 /* libopencv_xobjdetect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xobjdetect.dylib; sourceTree = "<group>"; };
+		220FC3772019CAEE00578D68 /* libopencv_photo.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_photo.3.4.dylib; sourceTree = "<group>"; };
+		220FC3782019CAEE00578D68 /* libopencv_fuzzy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_fuzzy.dylib; sourceTree = "<group>"; };
+		220FC3792019CAEE00578D68 /* libopencv_rgbd.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_rgbd.3.4.dylib; sourceTree = "<group>"; };
+		220FC37A2019CAEE00578D68 /* libopencv_img_hash.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_img_hash.3.4.dylib; sourceTree = "<group>"; };
+		220FC37B2019CAEE00578D68 /* libopencv_line_descriptor.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_line_descriptor.3.4.dylib; sourceTree = "<group>"; };
+		220FC37C2019CAEE00578D68 /* libopencv_dpm.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_dpm.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC37D2019CAEE00578D68 /* libopencv_bgsegm.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_bgsegm.3.4.dylib; sourceTree = "<group>"; };
+		220FC37E2019CAEE00578D68 /* libopencv_features2d.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_features2d.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC37F2019CAEE00578D68 /* libopencv_bioinspired.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_bioinspired.dylib; sourceTree = "<group>"; };
+		220FC3802019CAEE00578D68 /* libopencv_saliency.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_saliency.3.4.dylib; sourceTree = "<group>"; };
+		220FC3812019CAEE00578D68 /* libopencv_flann.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_flann.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3822019CAEE00578D68 /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.dylib; sourceTree = "<group>"; };
+		220FC3832019CAEE00578D68 /* libopencv_objdetect.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_objdetect.dylib; sourceTree = "<group>"; };
+		220FC3842019CAEE00578D68 /* libopencv_xphoto.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xphoto.3.4.dylib; sourceTree = "<group>"; };
+		220FC3872019CAEE00578D68 /* cv2.cpython-36m-darwin.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = "cv2.cpython-36m-darwin.so"; sourceTree = "<group>"; };
+		220FC3882019CAEE00578D68 /* libopencv_xphoto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xphoto.dylib; sourceTree = "<group>"; };
+		220FC3892019CAEE00578D68 /* libopencv_shape.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_shape.3.4.dylib; sourceTree = "<group>"; };
+		220FC38A2019CAEE00578D68 /* libopencv_flann.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_flann.dylib; sourceTree = "<group>"; };
+		220FC38B2019CAEE00578D68 /* libopencv_imgcodecs.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgcodecs.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC38C2019CAEE00578D68 /* libopencv_shape.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_shape.dylib; sourceTree = "<group>"; };
+		220FC38D2019CAEE00578D68 /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.dylib; sourceTree = "<group>"; };
+		220FC38E2019CAEE00578D68 /* libopencv_ccalib.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ccalib.3.4.dylib; sourceTree = "<group>"; };
+		220FC38F2019CAEE00578D68 /* libopencv_dnn.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_dnn.3.4.dylib; sourceTree = "<group>"; };
+		220FC3902019CAEE00578D68 /* libopencv_imgproc.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3912019CAEE00578D68 /* libopencv_fuzzy.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_fuzzy.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3922019CAEE00578D68 /* libopencv_saliency.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_saliency.dylib; sourceTree = "<group>"; };
+		220FC3932019CAEE00578D68 /* libopencv_reg.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_reg.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3942019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_phase_unwrapping.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3952019CAEE00578D68 /* libopencv_photo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_photo.dylib; sourceTree = "<group>"; };
+		220FC3962019CAEE00578D68 /* libopencv_videostab.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.dylib; sourceTree = "<group>"; };
+		220FC3972019CAEE00578D68 /* libopencv_superres.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_superres.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3982019CAEE00578D68 /* libopencv_features2d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_features2d.dylib; sourceTree = "<group>"; };
+		220FC3992019CAEE00578D68 /* libopencv_imgproc.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.3.4.dylib; sourceTree = "<group>"; };
+		220FC39A2019CAEE00578D68 /* libopencv_videoio.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videoio.dylib; sourceTree = "<group>"; };
+		220FC39B2019CAEE00578D68 /* libopencv_surface_matching.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_surface_matching.3.4.dylib; sourceTree = "<group>"; };
+		220FC39C2019CAEE00578D68 /* libopencv_optflow.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_optflow.3.4.dylib; sourceTree = "<group>"; };
+		220FC39D2019CAEE00578D68 /* libopencv_plot.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_plot.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC39E2019CAEE00578D68 /* libopencv_flann.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_flann.3.4.dylib; sourceTree = "<group>"; };
+		220FC39F2019CAEE00578D68 /* libopencv_ximgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ximgproc.dylib; sourceTree = "<group>"; };
+		220FC3A02019CAEE00578D68 /* libopencv_tracking.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_tracking.dylib; sourceTree = "<group>"; };
+		220FC3A12019CAEE00578D68 /* libopencv_ml.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ml.dylib; sourceTree = "<group>"; };
+		220FC3A22019CAEE00578D68 /* libopencv_structured_light.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_structured_light.dylib; sourceTree = "<group>"; };
+		220FC3A32019CAEE00578D68 /* libopencv_stitching.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_stitching.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3A42019CAEE00578D68 /* libopencv_plot.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_plot.3.4.dylib; sourceTree = "<group>"; };
+		220FC3A52019CAEE00578D68 /* libopencv_surface_matching.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_surface_matching.dylib; sourceTree = "<group>"; };
+		220FC3A62019CAEE00578D68 /* libopencv_optflow.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_optflow.dylib; sourceTree = "<group>"; };
+		220FC3A72019CAEE00578D68 /* libopencv_structured_light.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_structured_light.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3A82019CAEE00578D68 /* libopencv_tracking.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_tracking.3.4.dylib; sourceTree = "<group>"; };
+		220FC3A92019CAEE00578D68 /* libopencv_ximgproc.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ximgproc.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3AA2019CAEE00578D68 /* libopencv_photo.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_photo.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3AB2019CAEE00578D68 /* libopencv_text.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_text.dylib; sourceTree = "<group>"; };
+		220FC3AC2019CAEE00578D68 /* libopencv_line_descriptor.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_line_descriptor.dylib; sourceTree = "<group>"; };
+		220FC3AD2019CAEE00578D68 /* libopencv_structured_light.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_structured_light.3.4.dylib; sourceTree = "<group>"; };
+		220FC3AE2019CAEE00578D68 /* libopencv_stereo.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_stereo.dylib; sourceTree = "<group>"; };
+		220FC3AF2019CAEE00578D68 /* libopencv_bgsegm.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_bgsegm.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3B02019CAEE00578D68 /* libopencv_face.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_face.3.4.dylib; sourceTree = "<group>"; };
+		220FC3B12019CAEE00578D68 /* libopencv_dpm.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_dpm.3.4.dylib; sourceTree = "<group>"; };
+		220FC3B22019CAEE00578D68 /* libopencv_videoio.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videoio.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3B32019CAEE00578D68 /* libopencv_ml.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ml.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3B72019CAEE00578D68 /* libopencv_superres.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_superres.dylib; sourceTree = "<group>"; };
+		220FC3B82019CAEE00578D68 /* libopencv_stereo.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_stereo.3.4.dylib; sourceTree = "<group>"; };
+		220FC3B92019CAEE00578D68 /* libopencv_dnn.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_dnn.dylib; sourceTree = "<group>"; };
+		220FC3BA2019CAEE00578D68 /* libopencv_saliency.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_saliency.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3BB2019CAEE00578D68 /* libopencv_reg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_reg.dylib; sourceTree = "<group>"; };
+		220FC3BC2019CAEE00578D68 /* libopencv_ccalib.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ccalib.dylib; sourceTree = "<group>"; };
+		220FC3BD2019CAEE00578D68 /* libopencv_text.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_text.3.4.dylib; sourceTree = "<group>"; };
+		220FC3BE2019CAEE00578D68 /* libopencv_fuzzy.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_fuzzy.3.4.dylib; sourceTree = "<group>"; };
+		220FC3BF2019CAEE00578D68 /* libopencv_shape.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_shape.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3C02019CAEE00578D68 /* libopencv_features2d.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_features2d.3.4.dylib; sourceTree = "<group>"; };
+		220FC3C12019CAEE00578D68 /* libopencv_plot.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_plot.dylib; sourceTree = "<group>"; };
+		220FC3C22019CAEE00578D68 /* libopencv_bioinspired.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_bioinspired.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3C32019CAEE00578D68 /* libopencv_aruco.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_aruco.dylib; sourceTree = "<group>"; };
+		220FC3C42019CAEE00578D68 /* libopencv_dpm.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_dpm.dylib; sourceTree = "<group>"; };
+		220FC3C52019CAEE00578D68 /* libopencv_surface_matching.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_surface_matching.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3C62019CAEE00578D68 /* libopencv_videostab.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3C72019CAEE00578D68 /* libopencv_ml.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ml.3.4.dylib; sourceTree = "<group>"; };
+		220FC3C82019CAEE00578D68 /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.dylib; sourceTree = "<group>"; };
+		220FC3C92019CAEE00578D68 /* libopencv_line_descriptor.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_line_descriptor.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3CA2019CAEE00578D68 /* libopencv_calib3d.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.3.4.dylib; sourceTree = "<group>"; };
+		220FC3CB2019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_phase_unwrapping.3.4.dylib; sourceTree = "<group>"; };
+		220FC3CC2019CAEE00578D68 /* libopencv_aruco.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_aruco.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3CD2019CAEE00578D68 /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.dylib; sourceTree = "<group>"; };
+		220FC3CE2019CAEE00578D68 /* libopencv_core.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.3.4.dylib; sourceTree = "<group>"; };
+		220FC3CF2019CAEE00578D68 /* libopencv_datasets.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_datasets.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3D02019CAEE00578D68 /* libopencv_xobjdetect.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xobjdetect.3.4.dylib; sourceTree = "<group>"; };
+		220FC3D12019CAEE00578D68 /* libopencv_stereo.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_stereo.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3D22019CAEE00578D68 /* libopencv_face.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_face.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3D32019CAEE00578D68 /* libopencv_stitching.3.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_stitching.3.4.dylib; sourceTree = "<group>"; };
+		220FC3D42019CAEE00578D68 /* libopencv_video.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_video.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC3D52019CAEE00578D68 /* libopencv_xfeatures2d.3.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xfeatures2d.3.4.0.dylib; sourceTree = "<group>"; };
+		220FC4582019CDFE00578D68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		220FC45E2019D9F000578D68 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = ../../../../../../usr/local/Cellar/opencv/3.4.0_1/include; sourceTree = "<group>"; };
+		220FC460201A115A00578D68 /* image_tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = image_tool.h; sourceTree = "<group>"; };
+		220FC462201AC0CA00578D68 /* src_img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src_img; path = ../../../../Desktop/src_img; sourceTree = "<group>"; };
+		220FC469201AD45E00578D68 /* main_train.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main_train.cpp; sourceTree = "<group>"; };
+		220FC46C201AD93300578D68 /* opencvReadNu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opencvReadNu; path = ../../../../Desktop/opencvReadNu; sourceTree = "<group>"; };
+		CB8E86951D49B50100884BD7 /* LearningOpenCV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningOpenCV; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8E86A01D49B58D00884BD7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8E86921D49B50100884BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220FC3E02019CAEE00578D68 /* libopencv_ccalib.3.4.0.dylib in Frameworks */,
+				220FC4262019CAEE00578D68 /* libopencv_surface_matching.dylib in Frameworks */,
+				220FC3D82019CAEE00578D68 /* libopencv_stitching.dylib in Frameworks */,
+				220FC4472019CAEE00578D68 /* libopencv_line_descriptor.3.4.0.dylib in Frameworks */,
+				220FC4432019CAEE00578D68 /* libopencv_surface_matching.3.4.0.dylib in Frameworks */,
+				220FC4282019CAEE00578D68 /* libopencv_structured_light.3.4.0.dylib in Frameworks */,
+				220FC3D72019CAEE00578D68 /* libopencv_rgbd.dylib in Frameworks */,
+				220FC42B2019CAEE00578D68 /* libopencv_photo.3.4.0.dylib in Frameworks */,
+				220FC3FC2019CAEE00578D68 /* libopencv_fuzzy.dylib in Frameworks */,
+				220FC42F2019CAEE00578D68 /* libopencv_stereo.dylib in Frameworks */,
+				220FC42C2019CAEE00578D68 /* libopencv_text.dylib in Frameworks */,
+				220FC4102019CAEE00578D68 /* libopencv_dnn.3.4.dylib in Frameworks */,
+				220FC3EA2019CAEE00578D68 /* libopencv_ximgproc.3.4.dylib in Frameworks */,
+				220FC42E2019CAEE00578D68 /* libopencv_structured_light.3.4.dylib in Frameworks */,
+				220FC4112019CAEE00578D68 /* libopencv_imgproc.3.4.0.dylib in Frameworks */,
+				220FC4132019CAEE00578D68 /* libopencv_saliency.dylib in Frameworks */,
+				220FC4512019CAEE00578D68 /* libopencv_stitching.3.4.dylib in Frameworks */,
+				220FC3E12019CAEE00578D68 /* libopencv_text.3.4.0.dylib in Frameworks */,
+				220FC41E2019CAEE00578D68 /* libopencv_plot.3.4.0.dylib in Frameworks */,
+				220FC4232019CAEE00578D68 /* libopencv_structured_light.dylib in Frameworks */,
+				220FC3DF2019CAEE00578D68 /* libopencv_bgsegm.dylib in Frameworks */,
+				220FC4092019CAEE00578D68 /* libopencv_xphoto.dylib in Frameworks */,
+				220FC4532019CAEE00578D68 /* libopencv_xfeatures2d.3.4.0.dylib in Frameworks */,
+				220FC3FF2019CAEE00578D68 /* libopencv_line_descriptor.3.4.dylib in Frameworks */,
+				220FC44F2019CAEE00578D68 /* libopencv_stereo.3.4.0.dylib in Frameworks */,
+				220FC4452019CAEE00578D68 /* libopencv_ml.3.4.dylib in Frameworks */,
+				220FC4332019CAEE00578D68 /* libopencv_videoio.3.4.0.dylib in Frameworks */,
+				220FC40E2019CAEE00578D68 /* libopencv_imgproc.dylib in Frameworks */,
+				220FC44A2019CAEE00578D68 /* libopencv_aruco.3.4.0.dylib in Frameworks */,
+				220FC4462019CAEE00578D68 /* libopencv_highgui.dylib in Frameworks */,
+				220FC3F52019CAEE00578D68 /* libopencv_highgui.3.4.0.dylib in Frameworks */,
+				220FC3DA2019CAEE00578D68 /* libopencv_optflow.3.4.0.dylib in Frameworks */,
+				220FC3ED2019CAEE00578D68 /* libopencv_objdetect.3.4.dylib in Frameworks */,
+				220FC3DD2019CAEE00578D68 /* libopencv_superres.3.4.dylib in Frameworks */,
+				220FC3E72019CAEE00578D68 /* libopencv_calib3d.3.4.0.dylib in Frameworks */,
+				220FC3E22019CAEE00578D68 /* libopencv_dnn.3.4.0.dylib in Frameworks */,
+				220FC4322019CAEE00578D68 /* libopencv_dpm.3.4.dylib in Frameworks */,
+				220FC4302019CAEE00578D68 /* libopencv_bgsegm.3.4.0.dylib in Frameworks */,
+				220FC3E82019CAEE00578D68 /* libopencv_video.dylib in Frameworks */,
+				220FC4342019CAEE00578D68 /* libopencv_ml.3.4.0.dylib in Frameworks */,
+				220FC4082019CAEE00578D68 /* libopencv_xphoto.3.4.dylib in Frameworks */,
+				220FC4212019CAEE00578D68 /* libopencv_tracking.dylib in Frameworks */,
+				220FC44C2019CAEE00578D68 /* libopencv_core.3.4.dylib in Frameworks */,
+				220FC42A2019CAEE00578D68 /* libopencv_ximgproc.3.4.0.dylib in Frameworks */,
+				220FC3F42019CAEE00578D68 /* libopencv_rgbd.3.4.0.dylib in Frameworks */,
+				220FC4032019CAEE00578D68 /* libopencv_bioinspired.dylib in Frameworks */,
+				220FC4442019CAEE00578D68 /* libopencv_videostab.3.4.0.dylib in Frameworks */,
+				220FC4362019CAEE00578D68 /* libopencv_stereo.3.4.dylib in Frameworks */,
+				220FC3E42019CAEE00578D68 /* libopencv_tracking.3.4.0.dylib in Frameworks */,
+				220FC42D2019CAEE00578D68 /* libopencv_line_descriptor.dylib in Frameworks */,
+				220FC3F32019CAEE00578D68 /* libopencv_core.3.4.0.dylib in Frameworks */,
+				220FC40A2019CAEE00578D68 /* libopencv_shape.3.4.dylib in Frameworks */,
+				220FC4412019CAEE00578D68 /* libopencv_aruco.dylib in Frameworks */,
+				220FC4022019CAEE00578D68 /* libopencv_features2d.3.4.0.dylib in Frameworks */,
+				220FC4492019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.dylib in Frameworks */,
+				220FC3E62019CAEE00578D68 /* libopencv_videostab.3.4.dylib in Frameworks */,
+				220FC4202019CAEE00578D68 /* libopencv_ximgproc.dylib in Frameworks */,
+				220FC4312019CAEE00578D68 /* libopencv_face.3.4.dylib in Frameworks */,
+				220FC3E92019CAEE00578D68 /* libopencv_videoio.3.4.dylib in Frameworks */,
+				220FC40D2019CAEE00578D68 /* libopencv_shape.dylib in Frameworks */,
+				220FC3EB2019CAEE00578D68 /* libopencv_phase_unwrapping.dylib in Frameworks */,
+				220FC3FE2019CAEE00578D68 /* libopencv_img_hash.3.4.dylib in Frameworks */,
+				220FC3DB2019CAEE00578D68 /* libopencv_img_hash.dylib in Frameworks */,
+				220FC4002019CAEE00578D68 /* libopencv_dpm.3.4.0.dylib in Frameworks */,
+				220FC3FD2019CAEE00578D68 /* libopencv_rgbd.3.4.dylib in Frameworks */,
+				220FC4352019CAEE00578D68 /* libopencv_superres.dylib in Frameworks */,
+				220FC4222019CAEE00578D68 /* libopencv_ml.dylib in Frameworks */,
+				220FC41B2019CAEE00578D68 /* libopencv_videoio.dylib in Frameworks */,
+				220FC3F22019CAEE00578D68 /* libopencv_img_hash.3.4.0.dylib in Frameworks */,
+				220FC4382019CAEE00578D68 /* libopencv_saliency.3.4.0.dylib in Frameworks */,
+				220FC3EE2019CAEE00578D68 /* libopencv_imgcodecs.3.4.dylib in Frameworks */,
+				220FC4152019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.0.dylib in Frameworks */,
+				220FC4392019CAEE00578D68 /* libopencv_reg.dylib in Frameworks */,
+				220FC3EF2019CAEE00578D68 /* libopencv_imgcodecs.dylib in Frameworks */,
+				220FC41A2019CAEE00578D68 /* libopencv_imgproc.3.4.dylib in Frameworks */,
+				220FC41F2019CAEE00578D68 /* libopencv_flann.3.4.dylib in Frameworks */,
+				220FC4292019CAEE00578D68 /* libopencv_tracking.3.4.dylib in Frameworks */,
+				220FC4052019CAEE00578D68 /* libopencv_flann.3.4.0.dylib in Frameworks */,
+				220FC4402019CAEE00578D68 /* libopencv_bioinspired.3.4.0.dylib in Frameworks */,
+				220FC3F12019CAEE00578D68 /* libopencv_datasets.3.4.dylib in Frameworks */,
+				220FC43A2019CAEE00578D68 /* libopencv_ccalib.dylib in Frameworks */,
+				220FC3DE2019CAEE00578D68 /* libopencv_xobjdetect.3.4.0.dylib in Frameworks */,
+				220FC3E52019CAEE00578D68 /* libopencv_reg.3.4.dylib in Frameworks */,
+				220FC3D62019CAEE00578D68 /* libopencv_xphoto.3.4.0.dylib in Frameworks */,
+				220FC3E32019CAEE00578D68 /* libopencv_aruco.3.4.dylib in Frameworks */,
+				220FC4042019CAEE00578D68 /* libopencv_saliency.3.4.dylib in Frameworks */,
+				220FC44B2019CAEE00578D68 /* libopencv_core.dylib in Frameworks */,
+				220FC40F2019CAEE00578D68 /* libopencv_ccalib.3.4.dylib in Frameworks */,
+				220FC4242019CAEE00578D68 /* libopencv_stitching.3.4.0.dylib in Frameworks */,
+				220FC4272019CAEE00578D68 /* libopencv_optflow.dylib in Frameworks */,
+				220FC4142019CAEE00578D68 /* libopencv_reg.3.4.0.dylib in Frameworks */,
+				220FC44E2019CAEE00578D68 /* libopencv_xobjdetect.3.4.dylib in Frameworks */,
+				220FC4182019CAEE00578D68 /* libopencv_superres.3.4.0.dylib in Frameworks */,
+				220FC3FA2019CAEE00578D68 /* libopencv_xobjdetect.dylib in Frameworks */,
+				220FC41D2019CAEE00578D68 /* libopencv_optflow.3.4.dylib in Frameworks */,
+				220FC4482019CAEE00578D68 /* libopencv_calib3d.3.4.dylib in Frameworks */,
+				220FC4172019CAEE00578D68 /* libopencv_videostab.dylib in Frameworks */,
+				220FC4422019CAEE00578D68 /* libopencv_dpm.dylib in Frameworks */,
+				220FC43C2019CAEE00578D68 /* libopencv_fuzzy.3.4.dylib in Frameworks */,
+				220FC4252019CAEE00578D68 /* libopencv_plot.3.4.dylib in Frameworks */,
+				220FC3EC2019CAEE00578D68 /* libopencv_highgui.3.4.dylib in Frameworks */,
+				220FC3F72019CAEE00578D68 /* libopencv_bioinspired.3.4.dylib in Frameworks */,
+				220FC4072019CAEE00578D68 /* libopencv_objdetect.dylib in Frameworks */,
+				220FC44D2019CAEE00578D68 /* libopencv_datasets.3.4.0.dylib in Frameworks */,
+				220FC3DC2019CAEE00578D68 /* libopencv_xfeatures2d.3.4.dylib in Frameworks */,
+				220FC4522019CAEE00578D68 /* libopencv_video.3.4.0.dylib in Frameworks */,
+				220FC3F02019CAEE00578D68 /* libopencv_video.3.4.dylib in Frameworks */,
+				220FC43F2019CAEE00578D68 /* libopencv_plot.dylib in Frameworks */,
+				220FC43D2019CAEE00578D68 /* libopencv_shape.3.4.0.dylib in Frameworks */,
+				220FC3FB2019CAEE00578D68 /* libopencv_photo.3.4.dylib in Frameworks */,
+				220FC40C2019CAEE00578D68 /* libopencv_imgcodecs.3.4.0.dylib in Frameworks */,
+				220FC43B2019CAEE00578D68 /* libopencv_text.3.4.dylib in Frameworks */,
+				220FC41C2019CAEE00578D68 /* libopencv_surface_matching.3.4.dylib in Frameworks */,
+				220FC4192019CAEE00578D68 /* libopencv_features2d.dylib in Frameworks */,
+				220FC40B2019CAEE00578D68 /* libopencv_flann.dylib in Frameworks */,
+				220FC3D92019CAEE00578D68 /* libopencv_objdetect.3.4.0.dylib in Frameworks */,
+				220FC4372019CAEE00578D68 /* libopencv_dnn.dylib in Frameworks */,
+				220FC4502019CAEE00578D68 /* libopencv_face.3.4.0.dylib in Frameworks */,
+				220FC4122019CAEE00578D68 /* libopencv_fuzzy.3.4.0.dylib in Frameworks */,
+				220FC43E2019CAEE00578D68 /* libopencv_features2d.3.4.dylib in Frameworks */,
+				220FC3F62019CAEE00578D68 /* libopencv_datasets.dylib in Frameworks */,
+				220FC4162019CAEE00578D68 /* libopencv_photo.dylib in Frameworks */,
+				220FC4012019CAEE00578D68 /* libopencv_bgsegm.3.4.dylib in Frameworks */,
+				220FC3F92019CAEE00578D68 /* libopencv_face.dylib in Frameworks */,
+				220FC3F82019CAEE00578D68 /* libopencv_xfeatures2d.dylib in Frameworks */,
+				220FC4062019CAEE00578D68 /* libopencv_calib3d.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220FC34F2019CAED00578D68 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				220FC3502019CAED00578D68 /* libopencv_xphoto.3.4.0.dylib */,
+				220FC3512019CAEE00578D68 /* libopencv_rgbd.dylib */,
+				220FC3522019CAEE00578D68 /* libopencv_stitching.dylib */,
+				220FC3532019CAEE00578D68 /* libopencv_objdetect.3.4.0.dylib */,
+				220FC3542019CAEE00578D68 /* libopencv_optflow.3.4.0.dylib */,
+				220FC3552019CAEE00578D68 /* libopencv_img_hash.dylib */,
+				220FC3562019CAEE00578D68 /* libopencv_xfeatures2d.3.4.dylib */,
+				220FC3572019CAEE00578D68 /* libopencv_superres.3.4.dylib */,
+				220FC3582019CAEE00578D68 /* libopencv_xobjdetect.3.4.0.dylib */,
+				220FC3592019CAEE00578D68 /* libopencv_bgsegm.dylib */,
+				220FC35A2019CAEE00578D68 /* libopencv_ccalib.3.4.0.dylib */,
+				220FC35B2019CAEE00578D68 /* libopencv_text.3.4.0.dylib */,
+				220FC35C2019CAEE00578D68 /* libopencv_dnn.3.4.0.dylib */,
+				220FC35D2019CAEE00578D68 /* libopencv_aruco.3.4.dylib */,
+				220FC35E2019CAEE00578D68 /* libopencv_tracking.3.4.0.dylib */,
+				220FC35F2019CAEE00578D68 /* libopencv_reg.3.4.dylib */,
+				220FC3602019CAEE00578D68 /* pkgconfig */,
+				220FC3622019CAEE00578D68 /* libopencv_videostab.3.4.dylib */,
+				220FC3632019CAEE00578D68 /* libopencv_calib3d.3.4.0.dylib */,
+				220FC3642019CAEE00578D68 /* libopencv_video.dylib */,
+				220FC3652019CAEE00578D68 /* libopencv_videoio.3.4.dylib */,
+				220FC3662019CAEE00578D68 /* libopencv_ximgproc.3.4.dylib */,
+				220FC3672019CAEE00578D68 /* libopencv_phase_unwrapping.dylib */,
+				220FC3682019CAEE00578D68 /* libopencv_highgui.3.4.dylib */,
+				220FC3692019CAEE00578D68 /* libopencv_objdetect.3.4.dylib */,
+				220FC36A2019CAEE00578D68 /* libopencv_imgcodecs.3.4.dylib */,
+				220FC36B2019CAEE00578D68 /* libopencv_imgcodecs.dylib */,
+				220FC36C2019CAEE00578D68 /* libopencv_video.3.4.dylib */,
+				220FC36D2019CAEE00578D68 /* libopencv_datasets.3.4.dylib */,
+				220FC36E2019CAEE00578D68 /* libopencv_img_hash.3.4.0.dylib */,
+				220FC36F2019CAEE00578D68 /* libopencv_core.3.4.0.dylib */,
+				220FC3702019CAEE00578D68 /* libopencv_rgbd.3.4.0.dylib */,
+				220FC3712019CAEE00578D68 /* libopencv_highgui.3.4.0.dylib */,
+				220FC3722019CAEE00578D68 /* libopencv_datasets.dylib */,
+				220FC3732019CAEE00578D68 /* libopencv_bioinspired.3.4.dylib */,
+				220FC3742019CAEE00578D68 /* libopencv_xfeatures2d.dylib */,
+				220FC3752019CAEE00578D68 /* libopencv_face.dylib */,
+				220FC3762019CAEE00578D68 /* libopencv_xobjdetect.dylib */,
+				220FC3772019CAEE00578D68 /* libopencv_photo.3.4.dylib */,
+				220FC3782019CAEE00578D68 /* libopencv_fuzzy.dylib */,
+				220FC3792019CAEE00578D68 /* libopencv_rgbd.3.4.dylib */,
+				220FC37A2019CAEE00578D68 /* libopencv_img_hash.3.4.dylib */,
+				220FC37B2019CAEE00578D68 /* libopencv_line_descriptor.3.4.dylib */,
+				220FC37C2019CAEE00578D68 /* libopencv_dpm.3.4.0.dylib */,
+				220FC37D2019CAEE00578D68 /* libopencv_bgsegm.3.4.dylib */,
+				220FC37E2019CAEE00578D68 /* libopencv_features2d.3.4.0.dylib */,
+				220FC37F2019CAEE00578D68 /* libopencv_bioinspired.dylib */,
+				220FC3802019CAEE00578D68 /* libopencv_saliency.3.4.dylib */,
+				220FC3812019CAEE00578D68 /* libopencv_flann.3.4.0.dylib */,
+				220FC3822019CAEE00578D68 /* libopencv_calib3d.dylib */,
+				220FC3832019CAEE00578D68 /* libopencv_objdetect.dylib */,
+				220FC3842019CAEE00578D68 /* libopencv_xphoto.3.4.dylib */,
+				220FC3852019CAEE00578D68 /* python3.6 */,
+				220FC3882019CAEE00578D68 /* libopencv_xphoto.dylib */,
+				220FC3892019CAEE00578D68 /* libopencv_shape.3.4.dylib */,
+				220FC38A2019CAEE00578D68 /* libopencv_flann.dylib */,
+				220FC38B2019CAEE00578D68 /* libopencv_imgcodecs.3.4.0.dylib */,
+				220FC38C2019CAEE00578D68 /* libopencv_shape.dylib */,
+				220FC38D2019CAEE00578D68 /* libopencv_imgproc.dylib */,
+				220FC38E2019CAEE00578D68 /* libopencv_ccalib.3.4.dylib */,
+				220FC38F2019CAEE00578D68 /* libopencv_dnn.3.4.dylib */,
+				220FC3902019CAEE00578D68 /* libopencv_imgproc.3.4.0.dylib */,
+				220FC3912019CAEE00578D68 /* libopencv_fuzzy.3.4.0.dylib */,
+				220FC3922019CAEE00578D68 /* libopencv_saliency.dylib */,
+				220FC3932019CAEE00578D68 /* libopencv_reg.3.4.0.dylib */,
+				220FC3942019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.0.dylib */,
+				220FC3952019CAEE00578D68 /* libopencv_photo.dylib */,
+				220FC3962019CAEE00578D68 /* libopencv_videostab.dylib */,
+				220FC3972019CAEE00578D68 /* libopencv_superres.3.4.0.dylib */,
+				220FC3982019CAEE00578D68 /* libopencv_features2d.dylib */,
+				220FC3992019CAEE00578D68 /* libopencv_imgproc.3.4.dylib */,
+				220FC39A2019CAEE00578D68 /* libopencv_videoio.dylib */,
+				220FC39B2019CAEE00578D68 /* libopencv_surface_matching.3.4.dylib */,
+				220FC39C2019CAEE00578D68 /* libopencv_optflow.3.4.dylib */,
+				220FC39D2019CAEE00578D68 /* libopencv_plot.3.4.0.dylib */,
+				220FC39E2019CAEE00578D68 /* libopencv_flann.3.4.dylib */,
+				220FC39F2019CAEE00578D68 /* libopencv_ximgproc.dylib */,
+				220FC3A02019CAEE00578D68 /* libopencv_tracking.dylib */,
+				220FC3A12019CAEE00578D68 /* libopencv_ml.dylib */,
+				220FC3A22019CAEE00578D68 /* libopencv_structured_light.dylib */,
+				220FC3A32019CAEE00578D68 /* libopencv_stitching.3.4.0.dylib */,
+				220FC3A42019CAEE00578D68 /* libopencv_plot.3.4.dylib */,
+				220FC3A52019CAEE00578D68 /* libopencv_surface_matching.dylib */,
+				220FC3A62019CAEE00578D68 /* libopencv_optflow.dylib */,
+				220FC3A72019CAEE00578D68 /* libopencv_structured_light.3.4.0.dylib */,
+				220FC3A82019CAEE00578D68 /* libopencv_tracking.3.4.dylib */,
+				220FC3A92019CAEE00578D68 /* libopencv_ximgproc.3.4.0.dylib */,
+				220FC3AA2019CAEE00578D68 /* libopencv_photo.3.4.0.dylib */,
+				220FC3AB2019CAEE00578D68 /* libopencv_text.dylib */,
+				220FC3AC2019CAEE00578D68 /* libopencv_line_descriptor.dylib */,
+				220FC3AD2019CAEE00578D68 /* libopencv_structured_light.3.4.dylib */,
+				220FC3AE2019CAEE00578D68 /* libopencv_stereo.dylib */,
+				220FC3AF2019CAEE00578D68 /* libopencv_bgsegm.3.4.0.dylib */,
+				220FC3B02019CAEE00578D68 /* libopencv_face.3.4.dylib */,
+				220FC3B12019CAEE00578D68 /* libopencv_dpm.3.4.dylib */,
+				220FC3B22019CAEE00578D68 /* libopencv_videoio.3.4.0.dylib */,
+				220FC3B32019CAEE00578D68 /* libopencv_ml.3.4.0.dylib */,
+				220FC3B72019CAEE00578D68 /* libopencv_superres.dylib */,
+				220FC3B82019CAEE00578D68 /* libopencv_stereo.3.4.dylib */,
+				220FC3B92019CAEE00578D68 /* libopencv_dnn.dylib */,
+				220FC3BA2019CAEE00578D68 /* libopencv_saliency.3.4.0.dylib */,
+				220FC3BB2019CAEE00578D68 /* libopencv_reg.dylib */,
+				220FC3BC2019CAEE00578D68 /* libopencv_ccalib.dylib */,
+				220FC3BD2019CAEE00578D68 /* libopencv_text.3.4.dylib */,
+				220FC3BE2019CAEE00578D68 /* libopencv_fuzzy.3.4.dylib */,
+				220FC3BF2019CAEE00578D68 /* libopencv_shape.3.4.0.dylib */,
+				220FC3C02019CAEE00578D68 /* libopencv_features2d.3.4.dylib */,
+				220FC3C12019CAEE00578D68 /* libopencv_plot.dylib */,
+				220FC3C22019CAEE00578D68 /* libopencv_bioinspired.3.4.0.dylib */,
+				220FC3C32019CAEE00578D68 /* libopencv_aruco.dylib */,
+				220FC3C42019CAEE00578D68 /* libopencv_dpm.dylib */,
+				220FC3C52019CAEE00578D68 /* libopencv_surface_matching.3.4.0.dylib */,
+				220FC3C62019CAEE00578D68 /* libopencv_videostab.3.4.0.dylib */,
+				220FC3C72019CAEE00578D68 /* libopencv_ml.3.4.dylib */,
+				220FC3C82019CAEE00578D68 /* libopencv_highgui.dylib */,
+				220FC3C92019CAEE00578D68 /* libopencv_line_descriptor.3.4.0.dylib */,
+				220FC3CA2019CAEE00578D68 /* libopencv_calib3d.3.4.dylib */,
+				220FC3CB2019CAEE00578D68 /* libopencv_phase_unwrapping.3.4.dylib */,
+				220FC3CC2019CAEE00578D68 /* libopencv_aruco.3.4.0.dylib */,
+				220FC3CD2019CAEE00578D68 /* libopencv_core.dylib */,
+				220FC3CE2019CAEE00578D68 /* libopencv_core.3.4.dylib */,
+				220FC3CF2019CAEE00578D68 /* libopencv_datasets.3.4.0.dylib */,
+				220FC3D02019CAEE00578D68 /* libopencv_xobjdetect.3.4.dylib */,
+				220FC3D12019CAEE00578D68 /* libopencv_stereo.3.4.0.dylib */,
+				220FC3D22019CAEE00578D68 /* libopencv_face.3.4.0.dylib */,
+				220FC3D32019CAEE00578D68 /* libopencv_stitching.3.4.dylib */,
+				220FC3D42019CAEE00578D68 /* libopencv_video.3.4.0.dylib */,
+				220FC3D52019CAEE00578D68 /* libopencv_xfeatures2d.3.4.0.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		220FC3602019CAEE00578D68 /* pkgconfig */ = {
+			isa = PBXGroup;
+			children = (
+				220FC3612019CAEE00578D68 /* opencv.pc */,
+			);
+			path = pkgconfig;
+			sourceTree = "<group>";
+		};
+		220FC3852019CAEE00578D68 /* python3.6 */ = {
+			isa = PBXGroup;
+			children = (
+				220FC3862019CAEE00578D68 /* site-packages */,
+			);
+			path = python3.6;
+			sourceTree = "<group>";
+		};
+		220FC3862019CAEE00578D68 /* site-packages */ = {
+			isa = PBXGroup;
+			children = (
+				220FC3872019CAEE00578D68 /* cv2.cpython-36m-darwin.so */,
+			);
+			path = "site-packages";
+			sourceTree = "<group>";
+		};
+		220FC4542019CC6900578D68 /* NumberFinder */ = {
+			isa = PBXGroup;
+			children = (
+				220FC4582019CDFE00578D68 /* main.cpp */,
+				220FC469201AD45E00578D68 /* main_train.cpp */,
+				220FC460201A115A00578D68 /* image_tool.h */,
+			);
+			path = NumberFinder;
+			sourceTree = "<group>";
+		};
+		CB8E868C1D49B50100884BD7 = {
+			isa = PBXGroup;
+			children = (
+				220FC46C201AD93300578D68 /* opencvReadNu */,
+				220FC462201AC0CA00578D68 /* src_img */,
+				220FC45E2019D9F000578D68 /* include */,
+				220FC1B22019C86A00578D68 /* data */,
+				220FC4542019CC6900578D68 /* NumberFinder */,
+				220FC34F2019CAED00578D68 /* lib */,
+				CB8E869F1D49B58D00884BD7 /* src */,
+				CB8E86961D49B50100884BD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB8E86961D49B50100884BD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E86951D49B50100884BD7 /* LearningOpenCV */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB8E869F1D49B58D00884BD7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CB8E86A01D49B58D00884BD7 /* main.cpp */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8E86941D49B50100884BD7 /* LearningOpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8E869C1D49B50100884BD7 /* Build configuration list for PBXNativeTarget "LearningOpenCV" */;
+			buildPhases = (
+				CB8E86911D49B50100884BD7 /* Sources */,
+				CB8E86921D49B50100884BD7 /* Frameworks */,
+				CB8E86931D49B50100884BD7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningOpenCV;
+			productName = LearningOpenCV;
+			productReference = CB8E86951D49B50100884BD7 /* LearningOpenCV */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8E868D1D49B50100884BD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yourtion;
+				TargetAttributes = {
+					CB8E86941D49B50100884BD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CB8E86901D49B50100884BD7 /* Build configuration list for PBXProject "LearningOpenCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB8E868C1D49B50100884BD7;
+			productRefGroup = CB8E86961D49B50100884BD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8E86941D49B50100884BD7 /* LearningOpenCV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8E86911D49B50100884BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220FC46E201B4C3A00578D68 /* main_train.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB8E869A1D49B50100884BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB8E869B1D49B50100884BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB8E869D1D49B50100884BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/usr/local/Cellar/opencv/3.4.0_1/lib/**";
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/3.4.0_1/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/3.4.0_1/lib,
+					"/usr/local/Cellar/opencv/3.4.0_1/lib/python2.7/site-packages",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB8E869E1D49B50100884BD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/usr/local/Cellar/opencv/3.4.0_1/lib/**";
+				HEADER_SEARCH_PATHS = "/usr/local/Cellar/opencv/3.4.0_1/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/3.4.0_1/lib,
+					"/usr/local/Cellar/opencv/3.4.0_1/lib/python2.7/site-packages",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8E86901D49B50100884BD7 /* Build configuration list for PBXProject "LearningOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8E869A1D49B50100884BD7 /* Debug */,
+				CB8E869B1D49B50100884BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8E869C1D49B50100884BD7 /* Build configuration list for PBXNativeTarget "LearningOpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8E869D1D49B50100884BD7 /* Debug */,
+				CB8E869E1D49B50100884BD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8E868D1D49B50100884BD7 /* Project object */;
+}
